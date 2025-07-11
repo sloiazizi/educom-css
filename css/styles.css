@@ -1,16 +1,13 @@
-.cascading-parent {
-    font-weight: bold;  
-    color: blue;
+a {
+  font-size: 22px;
+  color: red;
 }
 
-.cascading-child {
-    background-color: rgb(238, 174, 202);
-    width: 200px;
-    height: 200px;
-    border: 2px solid rgb(109, 15, 96);
-    font-size: 16px;
-    display: flex;
-    color: rgb(109, 15, 96);
-    align-items: center;
-    justify-content: center;
+.cascading-parent h2 {
+  color: rgb(51, 0, 172);
+}
+
+.cascading-parent a {
+  font-size: 20px;
+  color: rgb(255, 230, 0);
 }
