@@ -1,12 +1,30 @@
-/**
- * Basis CSS file
- *
- * @author  Educom
- * @version 1.0
- *
- */
-
-html, body {
-    margin: 0;
-    padding: 0;
+body{
+    background-color: #f0f8ff;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 40px; /* Added padding to center content vertically & looks nicer. thanks video! */
 }
+
+.titel {
+    color: #4682b4;
+    margin-bottom: 30px;
+}
+
+.visje {
+  width: 120px;
+  height: 120px;
+  margin: 10px auto;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.blauw1 { background-color: #bfe4f7; } /*oeee extentie is echt handig met kleuren! letsgooo */
+.blauw2 { background-color: #aaddff; }
+.blauw3 { background-color: #88ccff; }
+.blauw4 { background-color: #66bbff; }
+.blauw5 { background-color: #4499dd; }
