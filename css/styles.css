@@ -10,6 +10,7 @@
     border: 2px solid rgb(109, 15, 96);
     font-size: 16px;
     display: flex;
+    color: rgb(109, 15, 96);
     align-items: center;
     justify-content: center;
 }
