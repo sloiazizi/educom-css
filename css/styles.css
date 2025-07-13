@@ -1,13 +1,21 @@
-a {
-  font-size: 22px;
-  color: red;
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+.bubble-font {
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 20px;
 }
 
-.cascading-parent h2 {
-  color: rgb(51, 0, 172);
+.pastel-colors {
+    background-color: #dab6fc; /* pastel paars */
+    color: #044b91; /* donkerblauw */
 }
 
-.cascading-parent a {
-  font-size: 20px;
-  color: rgb(255, 230, 0);
+.circle-shape {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
