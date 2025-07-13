@@ -1,37 +1,51 @@
 :root {
-  --bg-color: #e6e6fa;
-  --accent-color: #add8e6;
-  --text-color: #393970;
-  --link-hover: #7ec8e3;
-  --main-font: 'Trebuchet MS', sans-serif;
-  --padding-box: 20px;
-  --margin-box: 40px auto;
-  --border-radius: 15px;
+  --main-color: lavender;
+  --hover-color: mediumslateblue;
+  --text-color: #fff;
 }
 
 body {
-  background-color: var(--bg-color);
-  font-family: var(--main-font);
-  color: var(--text-color);
-  padding: 30px;
-}
-
-.card {
-  background-color: var(--accent-color);
-  padding: var(--padding-box);
-  margin: var(--margin-box);
-  border-radius: var(--border-radius);
-  max-width: 500px;
+  background-color: var(--main-color);
+  font-family: 'Bubblegum Sans', cursive;
+  padding: 40px;
   text-align: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.card a {
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.btn-variables {
+  width: 220px;
+  padding: 12px;
+  background-color: var(--hover-color);
   color: var(--text-color);
   text-decoration: none;
-  font-weight: bold;
+  border-radius: 12px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.4);
+  transition: all 0.3s ease;
 }
 
-.card a:hover {
-  color: var(--link-hover);
+.btn-variables:hover {
+  background-color: rebeccapurple;
+}
+
+.btn-gradient {
+  width: 220px;
+  padding: 12px;
+  background: linear-gradient(45deg, #a18cd1, #fbc2eb);
+  color: #2c2c54;
+  text-decoration: none;
+  border-radius: 12px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.4);
+  transition: all 0.3s ease;
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(45deg, #8e44ad, #6dd5fa);
+  color: white;
 }
