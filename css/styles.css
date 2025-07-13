@@ -1,16 +1,37 @@
-a:link {
-    color: rgb(181, 129, 240);
+:root {
+  --bg-color: #e6e6fa;
+  --accent-color: #add8e6;
+  --text-color: #393970;
+  --link-hover: #7ec8e3;
+  --main-font: 'Trebuchet MS', sans-serif;
+  --padding-box: 20px;
+  --margin-box: 40px auto;
+  --border-radius: 15px;
 }
 
-a:visited {
-    color: rebeccapurple;
+body {
+  background-color: var(--bg-color);
+  font-family: var(--main-font);
+  color: var(--text-color);
+  padding: 30px;
 }
 
-a:hover {
-    color: cornflowerblue;
-    text-decoration: underline;
+.card {
+  background-color: var(--accent-color);
+  padding: var(--padding-box);
+  margin: var(--margin-box);
+  border-radius: var(--border-radius);
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-a:active {
-    color: royalblue;
+.card a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card a:hover {
+  color: var(--link-hover);
 }
